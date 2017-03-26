@@ -1,0 +1,18 @@
+<html>
+    <head>
+    
+    </head>
+    
+    <body>
+        <h1>Movies</h1>
+        
+        <ol>
+            {% for movie in movies %}
+                {{movie.titlr}}
+            
+            {% else %}
+            Movies Not found
+            {% endfor %}
+        </ol>
+    </body>
+</html>
